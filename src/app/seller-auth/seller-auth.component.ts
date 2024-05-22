@@ -10,9 +10,19 @@ import { SignUp } from 'src/app/data-type';
 })
 export class SellerAuthComponent  {
 constructor(private seller: SellerService , private router : Router) {}
-   ngOnItnit(): void{}
+showLogin=false
+ngOnInit():void{
+  this.seller.reloadSeller()
+}
   signUp(data:SignUp):void{
     
     this.seller.userSignUp(data)
+  }
+  openLogin(){
+    this.showLogin=true
+  }
+  openSignUp()
+  {
+    this.showLogin=false
   }
 }
