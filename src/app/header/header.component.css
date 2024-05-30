@@ -26,7 +26,7 @@
    flex:1;
    color: blueviolet;
    border: 1px solid blueviolet;
-   height: 35px;
+   height: 39px;
    border-right: 0px;
 }
 .nav .nav-search {
@@ -41,4 +41,25 @@
    border: 1px solid blueviolet;
    height: 39px;
    border-left: 0px;
+}
+h1 a{
+    color: blueviolet;
+    text-decoration: none;
+}
+.suggested-result{
+    position: absolute;
+    display: list-item;
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    top:40px;
+    border: 1px solid #ddd;
+}
+.suggested-result li{
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.suggested-result li a{
+    cursor: pointer;
+    color: blueviolet;
 }

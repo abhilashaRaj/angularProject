@@ -25,3 +25,26 @@ color: blueviolet
     border: 1px solid blueviolet;
     cursor: pointer;;
 }
+
+.error-p{
+    color: red;
+}
+.message-p{
+    color:green;
+}
+.carousel-caption{
+    background-color: black;
+    border-radius: 5px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border: 5px;
+}
+.invalid-input{
+    color : red;
+    font-size:12px;
+    margin-top: -20px;
+}
+button:disabled{
+    cursor: not-allowed;
+}
